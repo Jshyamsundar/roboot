@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+    background-color: black;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+ .navlinks {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.msg {
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+.msg p {
+    color: skyblue;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.btn {
+    color: chocolate;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid skyblue;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.figure {
+    background-image: url(images/genius-coder-programme.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+}
+
+.heading {
+    color: white;
+    text-transform: capitalize;
+    padding-top: 180px;
+}
+
+.heading h2 {
+    border-left: 3px solid skyblue;
+    padding: 15px;
+    margin-left: 80px;
+    font-size: 50px;
+}
+
+.heading p {
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+.section {
+    background-color: white;
+    width: 100%;
+}
+
+.section h3 {
+    padding-top: 50px;
+    color: darkslateblue;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.para {
+    display: flex;
+    padding: 50px 50px;
+}
+
+.para p {
+    padding-top: 15px;
+    line-height: 2;
+    color: #525f7f;
+    font-size: 20px;
+    width: 100%;
+}
+
+ .para .photo img {
+    width: 500px;
+    border-radius: 2px;
+
+}
+
+.learn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.learn h3 {
+    color: darkslateblue;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.learn p {
+    color: #525f7f;
+    padding: 20px 200px;
+    line-height: 1.3;
+    font-size: 20px;
+
+}
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 1rem;
+    background-color: white;
+    padding: 0px 30px;
+
+}
+
+.card-1 {
+    background-color: #0094b9;
+    border-radius: 5px;
+    /* width: 350px; */
+    /* height: 400px; */
+} 
+ 
+.card-2 {
+    background-color: #eeb834;
+    border-radius: 5px;
+    /* width: 350px; */
+    /* height: 400px; */
+}
+
+
+.card-3 {
+    background-color: black;
+    border-radius: 5px;
+    /* width: 350px; */
+    /* height: 400px; */
+}
+
+.card-1 .cardheader {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.card-2 .cardheader {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.card-3 .cardheader {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.card-1 .cardheader i {
+    background-color: skyblue;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 70px;
+    border: 2px solid white;
+}
+
+.card-2 .cardheader i {
+    background-color: pink;
+    font-size: 20px;
+    padding: 19px;
+    border-radius: 120px;
+    border: 2px solid white;
+}
+
+.card-3 .cardheader i {
+    background-color: gray;
+    font-size: 20px;
+    padding: 19px;
+    border-radius: 120px;
+    border: 2px solid white;
+}
+
+.card-1 .cardheader h3 {
+    padding-top: 30px;
+}
+
+.card-2 .cardheader h3 {
+    padding-top: 30px;
+}
+
+.card-3 .cardheader h3 {
+    padding-top: 30px;
+}
+
+.icons-1 i {
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.desk-1 p {
+    padding: 5px;
+    line-height: 3;
+}
+
+.simple-1 {
+    display: flex;
+    padding-left: 15px;
+}
+
+.icons-11 i {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: skyblue;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.desk-11 p {
+    padding: 5px;
+    line-height: 3;
+}
+
+.simple-11 {
+    display: flex;
+    padding-left: 15px;
+}
+
+.cardbody-1 {
+    display: flex;
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.icons-2 i {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: pink;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.desk-2 p {
+    padding: 5px;
+    line-height: 3;
+}
+
+.simple-2 {
+    display: flex;
+    padding-left: 15px;
+}
+
+.icons-22 i {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: pink;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.desk-22 p {
+    padding: 5px;
+    line-height: 3;
+}
+
+.simple-22 {
+    display: flex;
+    padding-left: 15px;
+}
+
+.cardbody-2 {
+    display: flex;
+    padding: 10px;
+    text-transform: capitalize;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.icons-3 i {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: gray;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.desk-3 p {
+    padding: 5px;
+    line-height: 3;
+}
+
+.simple-3 {
+    display: flex;
+    padding-left: 15px;
+}
+
+.icons-33 i {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: gray;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.desk-33 p {
+    padding: 5px;
+    line-height: 3;
+}
+
+.simple-33 {
+    display: flex;
+    padding-left: 15px;
+}
+
+.cardbody-3 {
+    display: flex;
+    padding: 10px;
+    text-transform: capitalize;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.program {
+    margin-top: 50px;
+    background-color: #172b4d;
+}
+
+.pro {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pro h3 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.pro h4 {
+    color: #eeb834;
+    line-height: 2;
+    font-size: 30px;
+    padding-top: 30px;
+
+}
+
+.pro p {
+    color: white;
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.ready {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.trial {
+    padding-top: 50px;
+    /* width: 100%; */
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.trial h3 {
+    color: #172b4d;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.trial h4 {
+    color: #525f7f;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+.trial p {
+    color: #525f7f;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 20px 0px 30px;
+}
+ 
+.trial a {
+    padding: 10px 200px;
+    border-radius: 5px;
+    border: 2px solid #0094b9;
+    color: #0094b9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+} 
+
+.trial a:hover {
+    background-color: #0094b9;
+    color: #fff;
+}
+
+.child {
+    background-color: #172b4d;
+    margin-top: 30px;
+}
+
+.code {
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.code h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.code h3 span {
+    color: #eeb834;
+    font-size: 20px;
+}
+
+.code p {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 20px 0px 25px;
+    line-height: 1.5;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    gap: 1rem;
+    background-color:#172b4d;
+    padding: 10px 30px;
+}
+.car{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+.carheader img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 10px solid white;
+}
+.car .carbody i{
+    padding: 10px 30px 10px 30px;
+    color: #172b4d;
+    text-transform: lowercase;
+} 
+.footer{
+    background-color: white;
+    margin-top: 30px;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+
+}
+.foot h2{
+    color: #172b4d;
+    font-size: 30px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.foot p{
+    padding-top: 20px;
+    color: #525f7f;
+    line-height: 1.5;
+}
+.foot img{
+    padding-top: 20px;
+    width: 60%;
+}
+.foot-1{
+    text-align: center;
+    margin-top: 60px;
+}
+.foot-1 h3{
+    font-size: 30px;
+    color: #172b4d;
+    text-transform: capitalize;
+}
+
+.foot-1 p{
+    padding-top: 20px;
+    color: #525f7f;
+    line-height: 1.5;
+}
+.foot-1 img{
+    width: 60%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+} 
+.butt{
+    text-align: center;
+    width: 100%;
+}
+.buttons a {
+    padding: 10px 200px;
+    border-radius: 5px;
+    border: 2px solid #172b4d;
+    color: #172b4d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+}
+.buttons-1 a {
+    padding: 10px 95px;
+    border-radius: 5px;
+    border: 2px solid #0094b9;
+    color: #0094b9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+}
+.buttons a:hover{
+    background-color: #172b4d;
+    color: white;
+}
+.buttons-1 a:hover{
+    background-color: #0094b9;
+    color: white;
+}
+.contacts{
+    padding-top: 40px;
+    background-color:#222222;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+}
+.first img{
+    padding-bottom: 20px;
+}
+.first p{
+    padding: 10px 0px;
+    color: #525f7f;
+}
+.contacts .first  a i{
+    padding: 10px;
+    line-height: 1.5;
+    color: #525f7f;
+}
+.contacts .first a {
+    text-decoration: none;
+    color: #0094b9;
+}
+.contacts .middle h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #525f7f;
+    margin-bottom: 20px;
+}
+.contacts .middle p{
+    text-transform: capitalize;
+    color: #0094b9;
+    padding-top: 5px;
+}
+.contacts .last h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #525f7f;
+    margin-bottom: 20px;
+}
+.contacts .last img{
+    width: 60px;
+    border-radius: 35px;
+    
+}
+ .contacts .what img{
+    width: 60;
+    border-radius: 10px;
+}
+.what a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid lightgreen;
+    color: lightgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.what a:hover{
+    color: white;
+    background-color: lightgreen;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #222222;
+    
+}
+.copy a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: #0094b9;
+}
+.copy a i{
+    color: #525f7f;
+}
+.copy p{
+    margin-right: 100px;
+    color: #525f7f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

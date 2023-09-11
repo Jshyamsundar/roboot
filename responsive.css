@@ -1,0 +1,279 @@
+.checkbox{
+    display: none;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .navlinks{
+        flex-direction: column;
+        position: absolute;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background-color: grey;
+        text-align: center;
+        width: 100%;
+        top: 95px;
+        height: 42vh;
+        line-height: 2;
+    }
+    .navlinks a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: gray;
+        width: 500px;
+    }
+    .navlinks a:hover{
+        background-color: black;
+    }
+
+    
+.checkbox{
+    display: block;
+}
+#check:checked~.navlinks{
+    display: flex;
+}
+.section h3{
+    width: 100%;
+    font-size: 40px;
+}
+.section .para{
+    flex-direction: column;
+    margin-top: -30px;
+}
+.section .para .photo img{
+    width: 400px;
+}
+.learn h3{
+    font-size: 40px;
+}
+.learn p{
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 1.5;
+}
+.program .pro h4{
+    padding: 10px 20px;
+    line-height: 1.5;
+    font-size: 40px;
+}
+.program .pro p{
+    padding: 10px 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+.ready .trial h3{
+    margin-top: -20px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.ready .trial h4{
+    padding: 10px;
+    font-weight: lighter;
+
+}
+.ready .trial p{
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+.ready .trial a{
+    padding: 10px 100px;
+}
+.code h3{
+    font-size: 40px;
+}
+.code h3 span{
+    font-size: 45px;
+}
+.code p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    gap: 1rem;
+    background-color:#172b4d;
+    padding: 10px 30px;
+}
+.car{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+.carheader img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 10px solid white;
+}
+.car .carbody i{
+    /* padding: 10px 30px 10px 30px; */
+    color: #172b4d;
+    /* text-transform: lowercase; */
+} 
+.footer{
+    background-color: white;
+    margin-top: 30px;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+
+}
+.foot h2{
+    color: #172b4d;
+    font-size: 26px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.foot p{
+    font-size: 18px;
+    padding-top: 20px;
+    color: #525f7f;
+    line-height: 1.5;
+}
+.foot img{
+    padding-top: 20px;
+    width: 90%;
+}
+.foot-1{
+    text-align: center;
+    margin-top: 40px;
+}
+.foot-1 h3{
+    font-size: 30px;
+    color: #172b4d;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.foot-1 p{
+    font-size: 18px;
+    padding: 10px;
+    color: #525f7f;
+    line-height: 1.5;
+}
+.foot-1 img{
+    width: 90%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+} 
+.butt{
+    text-align: center;
+}
+.buttons a {
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 2px solid #172b4d;
+    color: #172b4d;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.buttons-1{
+    width: 100%;
+}
+.buttons-1 a {
+    width: 300px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 2px solid #0094b9;
+    color: #0094b9;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.buttons a:hover{
+    background-color: #172b4d;
+    color: white;
+}
+.buttons-1 a:hover{
+    background-color: #0094b9;
+    color: white;
+}
+.contacts{
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 40px;
+    background-color:#222222;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+}
+.first img{
+    padding-bottom: 20px;
+}
+.first p{
+    padding: 10px 0px;
+    color: #525f7f;
+}
+.contacts .first  a i{
+    padding: 10px;
+    line-height: 1.5;
+    color: #525f7f;
+}
+.contacts .first a {
+    text-decoration: none;
+    color: #0094b9;
+}
+.contacts .middle h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #525f7f;
+    margin: 20px 0px;
+    font-weight: lighter;
+}
+.contacts .middle p{
+    text-transform: capitalize;
+    color: #0094b9;
+    padding-top: 5px;
+}
+.contacts .last h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #525f7f;
+    margin: 20px 0px;
+    font-weight: lighter;
+}
+.contacts .last img{
+    width: 60px;
+    border-radius: 35px;
+    
+}
+ .contacts .what img{
+    width: 10%;
+    border-radius: 10px;
+}
+.what a {
+    padding: 0px 20px;
+    border-radius:5px;
+    border: 2px solid lightgreen;
+    color: lightgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+
+}
+.what a:hover{
+    color: white;
+    background-color: lightgreen;
+
+}
+.copy{
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+.copy p{
+    margin-left: 100px;
+}
+}
