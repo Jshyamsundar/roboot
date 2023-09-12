@@ -207,15 +207,15 @@
     border: 2px solid #172b4d;
 }
 .butt .btn-2 a{
-    padding: 0px 10px;
+    padding: 0px 50px;
+    border-radius: 2px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
-    border-radius: 2px;
+    font-size: 18px;
     color: #0094b9;
     border: 2px solid #0094b9;
+    display: block;
 }
-
 .btn-1 a:hover{
     background-color: #172b4d;
     color: white;
