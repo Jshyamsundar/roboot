@@ -1,5 +1,9 @@
-.checkbox{
+.checkbtn{
      display: none;
+     color: #0094b9;
+     padding: 5px;
+     border-radius: 5px;
+     border: 2px solid white;
 }
 #check{
     display: none;
@@ -33,7 +37,7 @@
     }
 
     
-.checkbox{
+.checkbtn{
     display: block;
 }
 #check:checked~.navlinks{
