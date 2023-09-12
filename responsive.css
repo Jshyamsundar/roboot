@@ -190,34 +190,33 @@
 } 
 .butt{
     text-align: center;
-}
-.buttons a {
-    padding: 10px 50px;
-    border-radius: 5px;
-    border: 2px solid #172b4d;
-    color: #172b4d;
-    text-decoration: none;
-    text-transform: uppercase;
-
-}
-.buttons-1{
     width: 100%;
-}
-.buttons-1 a {
-    padding: 5px 10px;
-    font-size: 15px;
-    border-radius: 5px;
-    border: 2px solid #0094b9;
-    color: #0094b9;
-    text-decoration: none;
-    text-transform: uppercase;
 
 }
-.buttons a:hover{
+.butt .btn-1 a{
+    padding: 0px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 2px;
+    color: #172b4d;
+    border: 2px solid #172b4d;
+}
+.butt .btn-2 a{
+    padding: 0px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 2px;
+    color: #0094b9;
+    border: 2px solid #0094b9;
+}
+
+.btn-1 a:hover{
     background-color: #172b4d;
     color: white;
 }
-.buttons-1 a:hover{
+.btn-2 a:hover{
     background-color: #0094b9;
     color: white;
 }
