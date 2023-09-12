@@ -1,5 +1,5 @@
 .checkbox{
-    display: none;
+     display: none;
 }
 #check{
     display: none;
@@ -28,6 +28,9 @@
     .navlinks a:hover{
         background-color: black;
     }
+    .msg{
+        display: none;
+    }
 
     
 .checkbox{
@@ -35,6 +38,17 @@
 }
 #check:checked~.navlinks{
     display: flex;
+}
+.heading h2 {
+    border-left: 2px solid skyblue;
+    padding: 15px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.heading p {
+    margin-left: 50px;
+    font-size: 30px;
 }
 .section h3{
     width: 100%;
@@ -45,7 +59,7 @@
     margin-top: -30px;
 }
 .section .para .photo img{
-    width: 400px;
+    width: 350px;
 }
 .learn h3{
     font-size: 40px;
@@ -66,6 +80,14 @@
     text-transform: capitalize;
     line-height: 1.5;
 }
+.para .photo img{
+    width: 100%;
+}
+.para .photo img {
+    width: 300px;
+    border-radius: 2px;
+
+}
 .ready .trial h3{
     margin-top: -20px;
     font-size: 30px;
@@ -81,7 +103,7 @@
     margin-bottom: 30px;
 }
 .ready .trial a{
-    padding: 10px 100px;
+    padding: 10px 70px;
 }
 .code h3{
     font-size: 40px;
@@ -182,8 +204,8 @@
     width: 100%;
 }
 .buttons-1 a {
-    width: 300px;
-    padding: 10px 0px;
+    padding: 5px 10px;
+    font-size: 15px;
     border-radius: 5px;
     border: 2px solid #0094b9;
     color: #0094b9;
